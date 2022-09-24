@@ -71,10 +71,7 @@
 	line-height: 1.6;
 }
 /* ----------------------------------------------- */
-.qqqq{
-	/* display: none; */
-}
-/* ----------------------------------------------- */
+
 .practice {
 	font-family: 'Kanit', sans-serif;
 	/* min-height: 600vh; */
@@ -101,7 +98,7 @@
 	max-width: 270px;
 	height: 550px;
 	color: rgb(173, 89, 32);
-	background:  url("../img/header-image.jpg") 50% 0 / contain no-repeat,url("../img/bg-repeat.jpg") 50% 0 / contain no-repeat fixed;
+	background:  url("../img/header-image.jpg") 50% 0 / 100% auto no-repeat,url("../img/bg-repeat.jpg") 50% 0 / contain no-repeat fixed;
 }
 .block-bg-2 {
 	text-align: center;
@@ -111,9 +108,7 @@
 .bg-block-2__inner {
 	background: orangered url("../img/trasparent-circle.png") center / 100% 100% no-repeat; 
 }
-.bg-block-2 {
-	padding: 10px 0 0;
-}
+
 .bg-block-2-item {
 	color: #fff;
 	background: url("../img/sun.jpg") 50% 0 / cover no-repeat;
